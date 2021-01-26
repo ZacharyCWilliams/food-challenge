@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Front End Takehome Project
+A take home project for Front End developers interviewing for a role at Territory Foods.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Your mission
+Hey Front End developer. Welcome. Your mission, should you choose to accept it, is to carve out 3 hours (TOPS) and create a single page app (SPA) using the API endpoint, and the front-end mockups defined below.
 
-## Available Scripts
+Maybe you don't totally finish everything. _That is ok!_ We care more about seeing what you do get done than what you don't, which gives us an opportunity to discuss your approach to time management & prioritization.
 
-In the project directory, you can run:
+To this end, please initialize a Git repo for this project and commit your work just like you would normally.
 
-### `yarn start`
+## What we are asking you to build:
+A very simplified version of our menu view: https://www.territoryfoods.com/menus/2020-08-03
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### Here's where you'll get the meals:
+https://territory-meals-api.herokuapp.com/meals
+(it's a hobby tier dyno, so if it fails to load right away, it's because it needs to spin up. Try again, and once it's up it'll stay awake for a while)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+#### Here's what our designer would like it to look like
+You do not need to match these perfectly, but, this role will be working closely with our design team, so being able to replicate a mockup from scratch will be important.
 
-### `yarn test`
+_This should save you time!_
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[Here are some mockups](https://www.figma.com/file/xGLKFAHDKoEODwpYPWQPoj/Code-Challenge?node-id=2%3A904)
 
-### `yarn build`
+#### Here are some user stories we would like the app to accomplish:
+ - As a user, I want to see all of the meals available on one page.
+ - As a user, I want to be able to filter meals by `tag` and `type`
+   - The collection of available tags should be based on what exists in the collection of meals. Hint: this should be dynamic, not hardcoded.
+ - As a user, I want to be able to search meals by `title`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### If you've got time...(stretch goal)
+ - As a user, I want to be able to add/remove the meals I select to a cart.
+ - As a user, I want to be able to see what is in my cart.
+   - Hint: this should be a modal or component on the page. Not a separate view.
+   
+## How to build it (what to use):
+ - We use React, though you may choose use the language and framework of your choice.
