@@ -1,25 +1,46 @@
-import logo from './logo.svg';
+import React, { useEffect } from "react";
 import './App.css';
+import axios from 'axios';
+import Nav from "./Nav/Nav";
+import Banner from "./Banner/Banner";
 
-function App() {
+// Nav
+// Banner
+// <Menu>
+// H1
+// P
+// render <ItemGrid items={items} />
+// <Item />
+//
+//</Menu>
+
+const App = () => {
+
+  // const getMenuItems = async() => {
+  //   const config = {
+  //     headers: {'Access-Control-Allow-Origin': '*'}
+  //   };
+  //   const items = await axios.get("https://light.territory.workers.dev/api/v1/meals", config);
+  //   console.log(items)
+  // }
+
+  // useEffect(() => {
+  //   // getMenuItems();
+  // }, [])
+
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav />
+      <Banner />
     </div>
   );
 }
 
 export default App;
+
+/* 
+      <Banner />
+      <Menu />
+      <Footer /> */
