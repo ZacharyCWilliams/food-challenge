@@ -4,16 +4,6 @@ import Nav from "./Nav/Nav";
 import Banner from "./Banner/Banner";
 import MenuGrid from "./MenuGrid/MenuGrid";
 
-// Nav
-// Banner
-// <Menu>
-// H1
-// P
-// render <ItemGrid items={items} />
-// <Item />
-//
-//</Menu>
-
 const App = () => {
 
   return (
@@ -26,8 +16,3 @@ const App = () => {
 }
 
 export default App;
-
-/* 
-      <Banner />
-      <Menu />
-      <Footer /> */
