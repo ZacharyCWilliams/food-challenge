@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import './App.css';
-import axios from 'axios';
 import Nav from "./Nav/Nav";
 import Banner from "./Banner/Banner";
+import MenuGrid from "./MenuGrid/MenuGrid";
 
 // Nav
 // Banner
@@ -16,24 +16,11 @@ import Banner from "./Banner/Banner";
 
 const App = () => {
 
-  // const getMenuItems = async() => {
-  //   const config = {
-  //     headers: {'Access-Control-Allow-Origin': '*'}
-  //   };
-  //   const items = await axios.get("https://light.territory.workers.dev/api/v1/meals", config);
-  //   console.log(items)
-  // }
-
-  // useEffect(() => {
-  //   // getMenuItems();
-  // }, [])
-
-
-
   return (
     <div className="App">
       <Nav />
       <Banner />
+      <MenuGrid />
     </div>
   );
 }

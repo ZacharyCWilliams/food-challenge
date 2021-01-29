@@ -1,0 +1,53 @@
+.gridWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.contentContainer {
+  width: 1250px;
+  margin: auto;
+}
+
+.tagButton {
+  padding: 12px 8px;
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 8px 8px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+
+.tagButtonActive {
+  padding: 12px 8px;
+  background: red;
+  color: white; 
+  border: 1px solid #E5E5E5;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 8px 8px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+
+.tagWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+#btnColor {
+  background-color: red;
+}
